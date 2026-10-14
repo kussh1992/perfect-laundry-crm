@@ -1,0 +1,15 @@
+# Secrets and environment files
+.streamlit/secrets.toml
+.env
+
+# Local database and backups (never commit client data)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
